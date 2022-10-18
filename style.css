@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 :root {
-  --background-dark: #7c3aed;
+  --button: #f4f4f5;
+  --background-dark: #fee2e2;
   --black: #000;
 }
 
@@ -8,9 +10,8 @@ html {
   color: var(--black);
   height: 100%;
 }
-
 * {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -49,7 +50,7 @@ input {
 }
 
 #calculate-number {
-  background-color: var(--background-dark);
+  background-color: var(--button);
   border: 2px solid var(--black);
   color: var(--black);
   padding: 0.4rem 1rem;
